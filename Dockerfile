@@ -7,7 +7,7 @@ ENV TZ=Europe/Amsterdam \
 
 # Combine installation commands and cleanup
 RUN apt-get update && apt-get upgrade -y
-RUN apt-get install graphviz -y
+RUN apt-get install git graphviz -y
 
 # Install poetry
 RUN python -m pip install "poetry==$POETRY_VERSION"
