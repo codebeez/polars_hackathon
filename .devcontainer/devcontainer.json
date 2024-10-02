@@ -1,0 +1,10 @@
+{
+    "build": {
+        "dockerfile": "../Dockerfile"
+        // "context": ".."
+    },
+    "mounts": [
+        "source=${localEnv:HOME}${localEnv:USERPROFILE}/.vscode/extensions,target=/root/.vscode-server/extensions,type=bind,consistency=cached"
+    ],
+    "onCreateCommand": "poetry install"
+}

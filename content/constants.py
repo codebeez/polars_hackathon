@@ -1,0 +1,1 @@
+IMDB_DATASET_PATH = "content/data/imdb_dataset/"

@@ -1,0 +1,8 @@
+{
+    "ruff.lineLength": null,
+    "editor.defaultFormatter": "charliermarsh.ruff",
+    "ruff.importStrategy": "fromEnvironment",
+    "ruff.lint.args": [
+        "\"args\": [\"--config=pyproject.toml\"]"
+    ]
+}
